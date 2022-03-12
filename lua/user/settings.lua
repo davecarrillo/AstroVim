@@ -1,10 +1,19 @@
 local config = {
 
   -- Set colorscheme
-  colorscheme = "onedark",
+  colorscheme = "dracula",
 
   -- Add plugins
   plugins = {
+    { "ghifarit53/tokyonight-vim" },
+    { "catppuccin/nvim", as = "catppuccin" },
+    { "morhetz/gruvbox" },
+    { "tomasr/molokai" },
+    { "dracula/vim",  as = "dracula" },
+    { "sainnhe/sonokai" },
+    { "jacoborus/tender.vim" },
+    { "cocopon/iceberg.vim" },
+    { "arcticicestudio/nord-vim" },
     -- { "andweeb/presence.nvim" },
     -- {
     -- "ray-x/lsp_signature.nvim",
@@ -57,6 +66,7 @@ local config = {
 
     -- Set key bindings
     map("n", "<C-s>", ":w!<CR>", opts)
+    map("i", "´", "<Escape>", opts)
 
     -- Set autocommands
     vim.cmd [[
