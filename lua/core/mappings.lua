@@ -28,8 +28,8 @@ map("n", "<S-l>", "<cmd>bnext<CR>", opts)
 map("n", "<S-h>", "<cmd>bprevious<CR>", opts)
 
 -- Move text up and down
-map("n", "<A-j>", "<Esc><cmd>m .+1<CR>==gi", opts)
-map("n", "<A-k>", "<Esc><cmd>m .-2<CR>==gi", opts)
+map("n", "<A-j>", "<Esc><cmd>m .+1<CR>==gi<Esc>", opts)
+map("n", "<A-k>", "<Esc><cmd>m .-2<CR>==gi<Esc>", opts)
 
 -- Standard Operations
 map("n", "<leader>w", "<cmd>w<CR>", opts)
