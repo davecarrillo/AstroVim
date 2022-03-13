@@ -1,11 +1,13 @@
 local config = {
 
   -- Set colorscheme
-  colorscheme = "dracula",
+  colorscheme = "tokyonight",
 
   -- Add plugins
   plugins = {
-    { "ghifarit53/tokyonight-vim" },
+    -- { "ghifarit53/tokyonight-vim" },
+    { "lunarvim/colorschemes"},
+    { "folke/tokyonight.nvim"},
     { "catppuccin/nvim", as = "catppuccin" },
     { "morhetz/gruvbox" },
     { "tomasr/molokai" },
